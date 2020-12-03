@@ -1,0 +1,162 @@
+$text-color: #1A1A1A;
+$green: #00B172;
+$white: #FFF;
+
+$font-family: 'sans-serif';
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+nav {
+    font-family: $font-family;
+    display: flex;
+    margin: 10px;
+
+    justify-content: space-between;
+    background-color: $white;
+    img {
+        width: 20%;
+        height: 20%;
+     
+        padding-left: 5%;
+    }
+    ul {
+        display: inline;
+        padding-right: 50px;
+  
+        float: right;
+    }
+    li {
+        display: inline;
+        float: right;
+   
+        margin: 10px;
+        a {
+            text-decoration: none;
+            color: grey;
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    height: 600px;
+  
+    background-image: url("./../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    h1 {
+        color: $white;
+        display: block;
+        margin: 0 auto;
+        font-size: 70px;
+      
+        padding-top: 15%;
+    }
+    p {
+        color: $white;
+        display: block;;
+        margin: 0 auto;
+     
+        padding-top: 5px;
+    }
+}
+
+.bullet-points {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: $green;
+    }
+    .bullets {
+        display: flex;
+        justify-content: center;
+       
+        align-items: baseline;
+        .bullet {
+            width: 30%;
+         
+            text-align: center;
+            margin: 10px;
+            h3 {
+                color: $green;
+            }
+            img {
+                width: 60%;
+              
+            }
+            p {
+                color: grey;
+            }
+        }
+    }
+}
+
+.kanye {
+    background-color: $green;
+    display: flex;
+    justify-content: space-around;
+    color: $white;
+
+    width: 100%;
+
+    .container {
+
+        max-width: 30%;
+       
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+        
+
+    }
+
+    .logo {
+
+        
+
+        img {
+            
+            position: absolute;
+            width: 10%;
+            
+           
+            padding-top: 10%;
+
+            margin-right: 60px;
+
+        }
+
+        
+
+    }
+
+    .app {
+        max-width: 20%;
+
+        padding-top: 5%;
+
+        img {
+            max-width: 80%;
+            object-fit: cover;
+        }
+    }
+
+    
+    
+}
